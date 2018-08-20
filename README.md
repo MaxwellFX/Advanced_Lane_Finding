@@ -37,8 +37,8 @@ The goals / steps of this project are the following:
 [image16]: ./writeUpImages/16_prev.png
 [image17]: ./writeUpImages/17_current.png
 [image18]: ./writeUpImages/18_sliding_window_prev.png
-[image17]: ./writeUpImages/19_lane_overlay.png
-[image18]: ./writeUpImages/20_data_overlay.png
+[image19]: ./writeUpImages/19_lane_overlay.png
+[image20]: ./writeUpImages/20_data_overlay.png
 
 [video1]: ./project_video.mp4 "Video"
 [video1]: ./project_video.mp4 "Video"
