@@ -200,11 +200,16 @@ And here is the resulting image for poly fit:
 
 ![alt text][image15]
 
+I used these two similar images as current and previous frame:
+
+![alt text][image16]
+![alt text][image17]
+
 And here is the image for using previous polyfit to skip the sliding window:
 
 ![alt text][image18]
 
-Again, for detailed steps, please refer to the .ipynb file
+Again, for detailed steps, please refer to the [.ipynb](https://github.com/MaxwellFX/Advanced_Lane_Finding/blob/master/Advanced_Lane_Finding.ipynb) file
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
@@ -288,7 +293,7 @@ def measure_curvature_real(combined_color_binary,
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-For detailed implementation, please refer to the .ipynb file
+For detailed implementation, please refer to the [.ipynb](https://github.com/MaxwellFX/Advanced_Lane_Finding/blob/master/Advanced_Lane_Finding.ipynb) file
 
 ![alt text][image20]
 
@@ -308,4 +313,6 @@ Here's a [not so well performed challenged video](./challenge_video_output.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-My biggest mistake so far was not write the code in object oriented style. Given the time restricted by other real life duties, I was not able to refactor the code.
+My biggest mistake so far was not write the code in object oriented style. Especially in the later stage, I found it was much harder to tune a specific parameters just none of my previous functions and data were object oriented. 
+
+To improve on the project, a better scope/masking algorithm is need. The car needs to learn what region of interests to search based on the given image. Such algorithm was not implemented in project, thus it was very difficult to find the correct lane information, especially for those challenging videos. With a more advanced scope searching algorithm, even for current lane search implementation should do a superb job. But expect that kind of task to be reserved in term 2/3 of the self-driving car nano degree.
