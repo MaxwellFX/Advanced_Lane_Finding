@@ -19,26 +19,26 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/01_chessboard_calibration.png
-[image2]: ./examples/02_chessboard_PT.png
-[image3]: ./examples/03_road_undist.png
-[image4]: ./examples/04_road_PT.png
-[image5]: ./examples/05_sobel_threshold_X.png
-[image6]: ./examples/06_mag_threshold.png
-[image7]: ./examples/07_dir_threshold.png
-[image8]: ./examples/08_solbel_combined.png
-[image9]: ./examples/09_yellow_line_PT.png
-[image10]: ./examples/10_yellow_line_L.png
-[image11]: ./examples/11_yellow_line_S.png
-[image12]: ./examples/12_yellow_line_BlueYellow.png
-[image13]: ./examples/13_yellow_line_color_combined.png
-[image14]: ./examples/14_hist.png
-[image15]: ./examples/15_sliding_window.png
-[image16]: ./examples/16_prev.png
-[image17]: ./examples/17_current.png
-[image18]: ./examples/18_sliding_window_prev.png
-[image17]: ./examples/19_lane_overlay.png
-[image18]: ./examples/20_data_overlay.png
+[image1]: ./writeUpImages/01_chessboard_calibration.png
+[image2]: ./writeUpImages/02_chessboard_PT.png
+[image3]: ./writeUpImages/03_road_undist.png
+[image4]: ./writeUpImages/04_road_PT.png
+[image5]: ./writeUpImages/05_sobel_threshold_X.png
+[image6]: ./writeUpImages/06_mag_threshold.png
+[image7]: ./writeUpImages/07_dir_threshold.png
+[image8]: ./writeUpImages/08_solbel_combined.png
+[image9]: ./writeUpImages/09_yellow_line_PT.png
+[image10]: ./writeUpImages/10_yellow_line_L.png
+[image11]: ./writeUpImages/11_yellow_line_S.png
+[image12]: ./writeUpImages/12_yellow_line_BlueYellow.png
+[image13]: ./writeUpImages/13_yellow_line_color_combined.png
+[image14]: ./writeUpImages/14_hist.png
+[image15]: ./writeUpImages/15_sliding_window.png
+[image16]: ./writeUpImages/16_prev.png
+[image17]: ./writeUpImages/17_current.png
+[image18]: ./writeUpImages/18_sliding_window_prev.png
+[image17]: ./writeUpImages/19_lane_overlay.png
+[image18]: ./writeUpImages/20_data_overlay.png
 
 [video1]: ./project_video.mp4 "Video"
 [video1]: ./project_video.mp4 "Video"
@@ -84,7 +84,7 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
-#### For detailed steps and how each functions were made, please refer to my .ipynb file
+#### For detailed steps and how each functions were made, please refer to my [.ipynb](https://github.com/MaxwellFX/Advanced_Lane_Finding/blob/master/Advanced_Lane_Finding.ipynb) file
 
 Here is the processing steps I have taken to create a binary thresholded image:
 
