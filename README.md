@@ -307,9 +307,9 @@ For detailed implementation, please refer to the [.ipynb](https://github.com/Max
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video_output.mp4)
+Here's a [link to my video result](https://youtu.be/DIU62EHuN5U)
 
-Here's a [not so well performed challenged video](./challenge_video_output.mp4)
+Here's a [not so well performed challenged video](https://youtu.be/XgOU0CPlPWQ)
 
 ---
 
