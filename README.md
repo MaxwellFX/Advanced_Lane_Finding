@@ -103,7 +103,7 @@ Here is the processing steps I have taken to create a binary thresholded image:
 
 * Lastly, I combined them into a color binary image:
 
-![alt text][image12]
+![alt text][image13]
 
 * Here is the code that does the combination:
 
@@ -194,7 +194,11 @@ def plot_ploy_fit(unwarped_binary):
     plt.show()
 ```
 
-where `fit_polynomial` and its associated functions were straight off from the tutorial
+where `fit_polynomial` and its associated functions were straight off from the tutorial:
+
+The center of the window search is located by the peak lower half histogram pixel location:
+
+![alt text][image14]
 
 And here is the resulting image for poly fit:
 
